@@ -1,0 +1,67 @@
+body{
+    display: block;
+    background-color: white;
+    font: 14px / 1.5 'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding: 40px;
+}
+
+.wrapper{
+    width: 860px;
+    margin: 0 auto;
+}
+
+header{
+    width: 270px;
+    float: left;
+    position: fixed;
+}
+
+section{
+    display: block;
+    width: 500px;
+    float: right;
+}
+
+h1{
+    font-size: 28px;
+}
+h1 h2 h3{
+    margin: 0 0 20px;
+    line-height: 1.1;
+}
+a{
+    color: rgb(33, 78, 227);
+    text-decoration: none;
+}
+
+a:hover,a:focus {
+    color: #069;
+    font-weight: bold
+}
+
+a small {
+    font-size: 11px;
+    color: #777;
+    margin-top: -0.3em;
+    display: block
+}
+
+p{
+    margin: 0 0 20px;
+}
+
+img{
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.rounded{
+    border-radius: 50%;
+}
+
+.github{
+    width: 120px;
+    height: 40px;
+}
